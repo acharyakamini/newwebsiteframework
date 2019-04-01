@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="11356" started-at="2019-04-01T17:16:55Z" finished-at="2019-04-01T17:17:06Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="11356" started-at="2019-04-01T17:16:55Z" finished-at="2019-04-01T17:17:06Z">
+      <class name="com.headout.test.HomePageTest">
+        <test-method status="PASS" signature="initialization()[pri:0, instance:com.headout.test.HomePageTest@36d4b5c]" name="initialization" is-config="true" duration-ms="5915" started-at="2019-04-01T22:46:49Z" finished-at="2019-04-01T22:46:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="searchMovie()[pri:0, instance:com.headout.test.HomePageTest@36d4b5c]" name="searchMovie" duration-ms="1086" started-at="2019-04-01T22:46:55Z" finished-at="2019-04-01T22:46:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchMovie -->
+        <test-method status="PASS" signature="selectMovie()[pri:0, instance:com.headout.test.HomePageTest@36d4b5c]" name="selectMovie" duration-ms="283" started-at="2019-04-01T22:46:56Z" finished-at="2019-04-01T22:46:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectMovie -->
+        <test-method status="PASS" signature="termination()[pri:0, instance:com.headout.test.HomePageTest@36d4b5c]" name="termination" is-config="true" duration-ms="11634" started-at="2019-04-01T22:47:06Z" finished-at="2019-04-01T22:47:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- termination -->
+      </class> <!-- com.headout.test.HomePageTest -->
+      <class name="com.headout.test.SelectDateTest">
+        <test-method status="PASS" signature="selectDate()[pri:0, instance:com.headout.test.SelectDateTest@675d3402]" name="selectDate" duration-ms="2963" started-at="2019-04-01T22:46:56Z" finished-at="2019-04-01T22:46:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectDate -->
+      </class> <!-- com.headout.test.SelectDateTest -->
+      <class name="com.headout.test.CheckoutTest">
+        <test-method status="PASS" signature="checkoutDetails()[pri:0, instance:com.headout.test.CheckoutTest@51565ec2]" name="checkoutDetails" duration-ms="4562" started-at="2019-04-01T22:47:02Z" finished-at="2019-04-01T22:47:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkoutDetails -->
+      </class> <!-- com.headout.test.CheckoutTest -->
+      <class name="com.headout.test.SelectSeatTest">
+        <test-method status="PASS" signature="selectSeat()[pri:0, instance:com.headout.test.SelectSeatTest@28feb3fa]" name="selectSeat" duration-ms="2434" started-at="2019-04-01T22:46:59Z" finished-at="2019-04-01T22:47:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectSeat -->
+      </class> <!-- com.headout.test.SelectSeatTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
