@@ -1,47 +1,189 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="5" passed="5">
+<testng-results skipped="0" failed="2" total="5" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="11356" started-at="2019-04-01T17:16:55Z" finished-at="2019-04-01T17:17:06Z">
+  <suite name="Default suite" duration-ms="27685" started-at="2019-04-05T05:31:46Z" finished-at="2019-04-05T05:32:13Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="11356" started-at="2019-04-01T17:16:55Z" finished-at="2019-04-01T17:17:06Z">
+    <test name="Default test" duration-ms="27685" started-at="2019-04-05T05:31:46Z" finished-at="2019-04-05T05:32:13Z">
       <class name="com.headout.test.HomePageTest">
-        <test-method status="PASS" signature="initialization()[pri:0, instance:com.headout.test.HomePageTest@36d4b5c]" name="initialization" is-config="true" duration-ms="5915" started-at="2019-04-01T22:46:49Z" finished-at="2019-04-01T22:46:55Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initialization -->
-        <test-method status="PASS" signature="searchMovie()[pri:0, instance:com.headout.test.HomePageTest@36d4b5c]" name="searchMovie" duration-ms="1086" started-at="2019-04-01T22:46:55Z" finished-at="2019-04-01T22:46:56Z">
+        <test-method status="PASS" signature="searchMovie()[pri:0, instance:com.headout.test.HomePageTest@724af044]" name="searchMovie" duration-ms="1669" started-at="2019-04-05T11:01:46Z" finished-at="2019-04-05T11:01:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchMovie -->
-        <test-method status="PASS" signature="selectMovie()[pri:0, instance:com.headout.test.HomePageTest@36d4b5c]" name="selectMovie" duration-ms="283" started-at="2019-04-01T22:46:56Z" finished-at="2019-04-01T22:46:56Z">
+        <test-method status="PASS" signature="selectMovie()[pri:0, instance:com.headout.test.HomePageTest@724af044]" name="selectMovie" duration-ms="392" started-at="2019-04-05T11:01:47Z" finished-at="2019-04-05T11:01:48Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectMovie -->
-        <test-method status="PASS" signature="termination()[pri:0, instance:com.headout.test.HomePageTest@36d4b5c]" name="termination" is-config="true" duration-ms="11634" started-at="2019-04-01T22:47:06Z" finished-at="2019-04-01T22:47:18Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- termination -->
       </class> <!-- com.headout.test.HomePageTest -->
       <class name="com.headout.test.SelectDateTest">
-        <test-method status="PASS" signature="selectDate()[pri:0, instance:com.headout.test.SelectDateTest@675d3402]" name="selectDate" duration-ms="2963" started-at="2019-04-01T22:46:56Z" finished-at="2019-04-01T22:46:59Z">
+        <test-method status="PASS" signature="selectDate()[pri:0, instance:com.headout.test.SelectDateTest@5c7fa833]" name="selectDate" duration-ms="494" started-at="2019-04-05T11:02:13Z" finished-at="2019-04-05T11:02:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectDate -->
       </class> <!-- com.headout.test.SelectDateTest -->
       <class name="com.headout.test.CheckoutTest">
-        <test-method status="PASS" signature="checkoutDetails()[pri:0, instance:com.headout.test.CheckoutTest@51565ec2]" name="checkoutDetails" duration-ms="4562" started-at="2019-04-01T22:47:02Z" finished-at="2019-04-01T22:47:06Z">
+        <test-method status="PASS" signature="initialization()[pri:0, instance:com.headout.test.CheckoutTest@7dc7cbad]" name="initialization" is-config="true" duration-ms="14416" started-at="2019-04-05T11:01:31Z" finished-at="2019-04-05T11:01:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="FAIL" signature="checkoutDetails()[pri:0, instance:com.headout.test.CheckoutTest@7dc7cbad]" name="checkoutDetails" duration-ms="14995" started-at="2019-04-05T11:01:48Z" finished-at="2019-04-05T11:02:03Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//input[@name='First Name']"}
+  (Session info: chrome=73.0.3683.86)
+  (Driver info: chromedriver=72.0.3626.7 (efcef9a3ecda02b2132af215116a03852d08b9cb),platform=Mac OS X 10.13.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Kaminis-MAC.urbanladder.com', ip: '172.16.251.198', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 72.0.3626.7 (efcef9a3ecda02..., userDataDir: /var/folders/bg/29f3btq56w1...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:55825}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.86, webStorageEnabled: true}
+Session ID: e30d8704651ebee2f56afa91d95546dd
+*** Element info: {Using=xpath, value=//input[@name='First Name']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@name='First Name']"}
+  (Session info: chrome=73.0.3683.86)
+  (Driver info: chromedriver=72.0.3626.7 (efcef9a3ecda02b2132af215116a03852d08b9cb),platform=Mac OS X 10.13.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Kaminis-MAC.urbanladder.com', ip: '172.16.251.198', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 72.0.3626.7 (efcef9a3ecda02..., userDataDir: /var/folders/bg/29f3btq56w1...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:55825}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.86, webStorageEnabled: true}
+Session ID: e30d8704651ebee2f56afa91d95546dd
+*** Element info: {Using=xpath, value=//input[@name='First Name']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.headout.pages.CheckoutPage.userDetails(CheckoutPage.java:10)
+	at com.headout.test.CheckoutTest.checkoutDetails(CheckoutTest.java:13)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkoutDetails -->
+        <test-method status="PASS" signature="termination()[pri:0, instance:com.headout.test.CheckoutTest@7dc7cbad]" name="termination" is-config="true" duration-ms="10618" started-at="2019-04-05T11:02:14Z" finished-at="2019-04-05T11:02:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- termination -->
       </class> <!-- com.headout.test.CheckoutTest -->
       <class name="com.headout.test.SelectSeatTest">
-        <test-method status="PASS" signature="selectSeat()[pri:0, instance:com.headout.test.SelectSeatTest@28feb3fa]" name="selectSeat" duration-ms="2434" started-at="2019-04-01T22:46:59Z" finished-at="2019-04-01T22:47:02Z">
+        <test-method status="FAIL" signature="selectSeat()[pri:0, instance:com.headout.test.SelectSeatTest@39aeed2f]" name="selectSeat" duration-ms="10091" started-at="2019-04-05T11:02:03Z" finished-at="2019-04-05T11:02:13Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//iframe[@marginwidth='0']"}
+  (Session info: chrome=73.0.3683.86)
+  (Driver info: chromedriver=72.0.3626.7 (efcef9a3ecda02b2132af215116a03852d08b9cb),platform=Mac OS X 10.13.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Kaminis-MAC.urbanladder.com', ip: '172.16.251.198', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 72.0.3626.7 (efcef9a3ecda02..., userDataDir: /var/folders/bg/29f3btq56w1...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:55825}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.86, webStorageEnabled: true}
+Session ID: e30d8704651ebee2f56afa91d95546dd
+*** Element info: {Using=xpath, value=//iframe[@marginwidth='0']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//iframe[@marginwidth='0']"}
+  (Session info: chrome=73.0.3683.86)
+  (Driver info: chromedriver=72.0.3626.7 (efcef9a3ecda02b2132af215116a03852d08b9cb),platform=Mac OS X 10.13.6 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Kaminis-MAC.urbanladder.com', ip: '172.16.251.198', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 72.0.3626.7 (efcef9a3ecda02..., userDataDir: /var/folders/bg/29f3btq56w1...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:55825}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unexpectedAlertBehaviour: ignore, unhandledPromptBehavior: ignore, version: 73.0.3683.86, webStorageEnabled: true}
+Session ID: e30d8704651ebee2f56afa91d95546dd
+*** Element info: {Using=xpath, value=//iframe[@marginwidth='0']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.headout.pages.SelectSeatPage.selectSeat(SelectSeatPage.java:11)
+	at com.headout.test.SelectSeatTest.selectSeat(SelectSeatTest.java:14)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectSeat -->
       </class> <!-- com.headout.test.SelectSeatTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

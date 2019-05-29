@@ -3,13 +3,18 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.headout.test.HomePageTest">
+      <class name="com.headout.test.CheckoutTest">
         <methods>
-          <include name="selectMovie"/>
           <include name="initialization"/>
+          <include name="checkoutDetails"/>
           <include name="termination"/>
         </methods>
-      </class> <!-- com.headout.test.HomePageTest -->
+      </class> <!-- com.headout.test.CheckoutTest -->
+      <class name="com.headout.test.SelectSeatTest">
+        <methods>
+          <include name="selectSeat"/>
+        </methods>
+      </class> <!-- com.headout.test.SelectSeatTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
