@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="16165" started-at="2018-06-02T07:32:00Z" finished-at="2018-06-02T07:32:16Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="16165" started-at="2018-06-02T07:32:00Z" finished-at="2018-06-02T07:32:16Z">
+      <class name="com.testNG.testpackage.TestLogin">
+        <test-method status="PASS" signature="lestLogin()[pri:0, instance:com.testNG.testpackage.TestLogin@4686afc2]" name="lestLogin" duration-ms="16013" started-at="2018-06-02T07:32:00Z" finished-at="2018-06-02T07:32:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lestLogin -->
+      </class> <!-- com.testNG.testpackage.TestLogin -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
