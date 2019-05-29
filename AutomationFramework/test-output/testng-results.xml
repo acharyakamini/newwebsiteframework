@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="8297" started-at="2018-06-09T04:14:55Z" finished-at="2018-06-09T04:15:04Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="8297" started-at="2018-06-09T04:14:55Z" finished-at="2018-06-09T04:15:04Z">
+      <class name="scripts.JavascriptExecutorDemo">
+        <test-method status="PASS" signature="openApplication()[pri:0, instance:scripts.JavascriptExecutorDemo@69a3d1d]" name="openApplication" is-config="true" duration-ms="8197" started-at="2018-06-09T04:14:55Z" finished-at="2018-06-09T04:15:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="executeJavaScript()[pri:0, instance:scripts.JavascriptExecutorDemo@69a3d1d]" name="executeJavaScript" duration-ms="72" started-at="2018-06-09T04:15:03Z" finished-at="2018-06-09T04:15:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeJavaScript -->
+        <test-method status="PASS" signature="closeApplication(org.testng.ITestResult)[pri:0, instance:scripts.JavascriptExecutorDemo@69a3d1d]" name="closeApplication" is-config="true" duration-ms="2" started-at="2018-06-09T04:15:04Z" finished-at="2018-06-09T04:15:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=executeJavaScript status=SUCCESS method=JavascriptExecutorDemo.executeJavaScript()[pri:0, instance:scripts.JavascriptExecutorDemo@69a3d1d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- scripts.JavascriptExecutorDemo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
